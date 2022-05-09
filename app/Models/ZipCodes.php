@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Casts\Attribute;
 
 class ZipCodes extends Model
 {
@@ -25,7 +26,5 @@ class ZipCodes extends Model
                             'id_asenta_cpcons',
                             'd_zona',
                             'c_cve_ciudad'];
-
-    protected function zip_code(){}
 
 }
